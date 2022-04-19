@@ -5,7 +5,7 @@ import { getFormattedDate } from '../../util/date';
 
 import { GlobalStyles } from '../../constants/styles';
 
-const ExpenseItem = ({ description, date, amount }) => {
+const ExpenseItem = ({ id, description, date, amount }) => {
   const navigation = useNavigation();
   
   const expensePressHandler = () => {
